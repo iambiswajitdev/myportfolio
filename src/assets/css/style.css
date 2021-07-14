@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+}
+.sideBar {
+  width: 25%;
+  background-color: #08439b;
+  box-shadow: 8px 0px 31px #aaaaaa;
+  padding-top: 1%;
+  padding: 1% 20px;
+  position: fixed;
+  height: 100vh;
+}
+.home {
+  width: 100%;
+  padding: 20px;
+  border-radius: 6px;
+  height: 80vh;
+  margin: 1% 5% 0px 1%;
+}
+.sideBarManu {
+  margin-left: 28%;
+}
+.manu_list {
+  padding: 20px 0 0px;
+  text-decoration: none;
+  display: block;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.3s;
+  color: #d8ff8a;
+}
+.manu_list:hover {
+  color: #d8ff8a;
+}
+.logo {
+  margin-bottom: 15px;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 15px;
+}
+.logo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.logo h2 {
+  margin-bottom: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.logo p {
+  margin-bottom: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 24px;
+}
+.active_manuitems {
+  padding: 20px 0 0px;
+  text-decoration: none;
+  color: #ffff;
+  display: block;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.3s;
+}
+.active_manuitems:hover {
+  color: #ffff;
+}
+.manuIcon {
+  font-size: 24px;
+  margin-right: 15px;
+}
+.heading_video {
+  color: #112b87;
+  text-transform: capitalize;
+  font-size: 35px;
+}
+.contant_section {
+  width: 100%;
+  margin: 5% auto 0;
+}
+.inputFild {
+  border: none;
+  width: calc(100% - 40px);
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px #acabab;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.inputFild:focus-visible {
+  outline: none;
+}
+.upload {
+  width: 20%;
+  background-color: #fff;
+  box-shadow: 0px 0px 25px #acabab;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
+  flex-direction: column;
+}
+.imgUplod {
+  display: none;
+}
+.orsection {
+  text-align: center;
+  width: 100%;
+  display: block;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.uploadicon {
+  font-size: 33px;
+  color: #bc4343;
+}
+.studant {
+  font-size: 64px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.my_socalMedia li {
+  display: inline-block;
+}
+.my_socalMedia li a {
+  display: flex;
+  text-decoration: none;
+  color: rgb(79, 68, 228);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.hire {
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin-top: 24%;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #ffc300;
+}
+.my_posi {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.my_posi_preag {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.myimg img {
+  max-width: 100%;
+  height: 200px;
+}
+.resume {
+  text-decoration: none;
+  background-color: #089b25;
+  color: #fff;
+  margin-top: 15px;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.what_i_do {
+  border-left: 5px solid #08439b;
+  padding-left: 10px;
+}
+.mySkil {
+  width: 100%;
+  float: left;
+  margin-top: 20px;
+}
+.skliBoks {
+  display: inline-flex;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 25px #ccc;
+  flex-direction: column;
+  height: 300px;
+  border-radius: 15px;
+}
+.skilImg {
+  display: flex;
+}
+.skilImg img {
+  width: 70px;
+}
+.mainSkil {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  text-transform: uppercase;
+}
+.skilText {
+  display: flex;
+  width: 100%;
+}
+.nopadding {
+  padding: 0;
+}
